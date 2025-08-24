@@ -89,14 +89,3 @@ https://tvoj-site.ba/mobilepay/check_payment.php?paymentId=<ID>
 3. Pokreni plaćanje i koristi MobilePay sandbox aplikaciju  
 4. Status provjeri u `orders.json` ili preko `check_payment.php`
 
----
-
-## 📌 Ukratko
-
-- **config.php** → postavke i funkcije  
-- **create_payment.php** → kreira uplatu i šalje korisnika na MobilePay  
-- **redirect.php** → stranica povratka korisnika  
-- **webhook.php** → automatski status i capture  
-- **check_payment.php** → ručna provjera statusa  
-
-👉 Sa ovim fajlovima imaš kompletan MobilePay App Payments Web flow u PHP-u.
